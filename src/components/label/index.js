@@ -79,7 +79,7 @@ export default class Label extends PureComponent {
     let textStyle = {
       lineHeight: fontSize,
       fontSize,
-      color,
+      color:baseColor,
     };
 
     let { x0, y0, x1, y1 } = offset;
