@@ -116,8 +116,8 @@ export default class TextField extends PureComponent {
     prefix: PropTypes.string,
     suffix: PropTypes.string,
 
-    containerStyle: View.propTypes,
-    inputContainerStyle: View.propTypes,
+    containerStyle:any,
+    inputContainerStyle: any,
   };
 
   static inputContainerStyle = styles.inputContainer;
