@@ -8,7 +8,7 @@ import {
   StyleSheet,
   Platform,
 } from 'react-native';
-
+import {ViewPropType} from 'deprecated-react-native-prop-types'
 import Line from '../line';
 import Label from '../label';
 import Affix from '../affix';
@@ -116,8 +116,8 @@ export default class TextField extends PureComponent {
     prefix: PropTypes.string,
     suffix: PropTypes.string,
 
-    containerStyle:any,
-    inputContainerStyle: any,
+    containerStyle:ViewPropType,
+    inputContainerStyle:ViewPropType,
   };
 
   static inputContainerStyle = styles.inputContainer;
